@@ -1,0 +1,28 @@
+{
+  "name": "ottoman-data-visualization",
+  "version": "1.0.0",
+  "description": "A data visualization tool that renders structured data in the style of Ottoman Cerîde-i Adliyye gazettes",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ford-from-the-future/Ottoman-Data-Visualization.git"
+  },
+  "keywords": ["visualization", "ottoman", "data", "svg", "gazette"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ford-from-the-future/Ottoman-Data-Visualization/issues"
+  },
+  "homepage": "https://github.com/ford-from-the-future/Ottoman-Data-Visualization#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "types": "dist/index.d.ts"
+}
